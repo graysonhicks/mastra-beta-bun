@@ -1,30 +1,19 @@
 {
-  "name": "beta",
+  "name": "bun-s3-workflow-bug",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Reproduction for Bun S3 workflow bug in Mastra",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "mastra dev",
-    "build": "mastra build",
-    "start": "mastra start"
+    "dev": "mastra dev"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "type": "module",
-  "engines": {
-    "node": ">=20.9.0"
-  },
   "dependencies": {
     "@mastra/core": "^1.0.0-beta.10",
     "@mastra/libsql": "^1.0.0-beta.7",
     "@mastra/loggers": "^1.0.0-beta.3",
-    "@mastra/memory": "^1.0.0-beta.4",
     "zod": "^4.1.12"
   },
   "devDependencies": {
-    "@types/node": "^24.10.0",
+    "@types/bun": "^1.2.18",
     "mastra": "^1.0.0-beta.8",
     "typescript": "^5.9.3"
   }
